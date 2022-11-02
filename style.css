@@ -29,6 +29,7 @@ img {
   height:250px;
   width:250px;
   object-fit: cover;
+  padding: 30px;
 }
 
 h2 {
@@ -83,4 +84,22 @@ li {
 li a hover {
   color: rgb(81, 90, 210);
 
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
 }
